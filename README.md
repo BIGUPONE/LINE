@@ -2,7 +2,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/taichunmin/liff-businesscard)](https://github.com/taichunmin/liff-businesscard/network)
 [![GitHub stars](https://img.shields.io/github/stars/taichunmin/liff-businesscard)](https://github.com/taichunmin/liff-businesscard/stargazers)
 
-# LINE 數位版名片 liff-businesscard
+# LINE 數位版名片 liff-businesscard-學習用途
 
 A Bussiness Card For LINE Using LINE Front-end Framework (LIFF) API.
 
