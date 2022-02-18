@@ -2,7 +2,7 @@ extends /layout/default
 
 block beforehtml
   -
-    title = '分享 LINE 數位版名片'
+    title = '分享 LINE 數位公關發行'
     description = '請開啟本連結並按一下「分享好友」來分享給好友或群組。'
 
 block style
@@ -34,8 +34,8 @@ block content
         a.dropdown-item(target="_blank", href="https://line.me/R/nv/QRCodeReader") #[i.fa.fa-fw.fa-qrcode] {{ $t('dropdown.qrcodeReader') }}
         a.dropdown-item(target="_blank", href="https://line.me/R/nv/addFriends") #[i.fa.fa-fw.fa-users] {{ $t('dropdown.addFriends') }}
         a.dropdown-item(target="_blank", href="https://line.me/R/nv/keep") #[i.fa.fa-fw.fa-bookmark] {{ $t('dropdown.keep') }}
-        a.dropdown-item(target="_blank", href=baseurl+'?openExternalBrowser=1') #[i.fa.fa-fw.fa-address-card] {{ $t('dropdown.create') }}
-        a.dropdown-item(target="_blank", href="https://fb.me/taichunmin?openExternalBrowser=1") #[i.fa.fa-fw.fa-facebook-official] {{ $t('dropdown.author') }}
+        
+        
         button.dropdown-item(type="button", @click="btnFriendMissing") #[i.fa.fa-fw.fa-question-circle] {{ $t('dropdown.friendMissing') }}
     .table-responsive(style="background-color: #849ebf")
       .chatbox.pt-3
@@ -73,7 +73,7 @@ block script
         try {
           this.showLoading(this.$t('wait'), this.$t('init.loading'))
           await loginPromise
-          window.gtagScreenView('瀏覽分享名片網頁')
+          window.gtagScreenView('瀏覽分享發行內容')
           window.gtagTiming('after loginPromise')
           this.liffLink = liff.permanentLink.createUrl()
           await Promise.all([
