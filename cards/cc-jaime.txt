@@ -1,0 +1,24 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://i.imgur.com/sCBfdpC.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1.25",
+        "gravity": "center"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "action": {
+    "type": "uri",
+    "label": "action",
+    "uri": "https://liff.line.me/1656036463-Bnl9ZxQE"
+  }
+}
