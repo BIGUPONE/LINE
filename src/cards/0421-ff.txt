@@ -7,7 +7,7 @@
     "contents": [
       {
         "type": "image",
-        "url": "https://familycare.tw/wp-content/uploads/2022/04/贈票活動-分享畫面.jpg",
+        "url": "https://familycare.tw/wp-content/uploads/2022/04/01.jpg,
         "size": "full",
         "aspectMode": "cover",
         "aspectRatio": "1040:1920",
